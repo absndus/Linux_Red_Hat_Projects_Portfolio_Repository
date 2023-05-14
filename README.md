@@ -21,10 +21,13 @@
     </a>
   <p><b>Description:</b> In this Linux bash script, it asks the administrator for the password and generates the md5 hash and copies and pastes to the /boot/menu.lst for the Grub version 1. It also notifies that the system would reboot in 10 seconds to test the change and make changes to the system.</p>
   
-<h2> 4. <a href="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Project_4_Linux_Kernel_Tuning_Security.sh"> Project 4 Linux Kernel Tuning Script</a></h2>
+<h2> 4. <a href="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Project_4_Linux_Kernel_Tuning_Security.sh">Project 4 Linux Kernel Tuning Script</a></h2>
 <br>
 <a href="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Linux%20Screenshots/Screenshot_2_Linux_Kernel_Secure_Tuning.png">
   <image src="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Linux%20Screenshots/Screenshot_2_Linux_Kernel_Secure_Tuning.png" alt = "Screenshot">
     </a>
   <p><b>Description:</b> In this Linux bash script, it asks the administrator several questions regarding kernel tuning the Linux system with ease. Once completed, it automatically execute the kernel live changes without the need to reboot the server.</p>
+  
+<h2> 5. <a href="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Project_5_Linux_ELIF_Statement_Float_Calculate_WeightLBtoKg.sh">Project 5 Linux Weight LB to KG using ELIF Statements and Arithmetics with Floating Data Type Script</a></h2>
+<br>
   
