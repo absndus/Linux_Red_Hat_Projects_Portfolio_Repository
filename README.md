@@ -1,8 +1,8 @@
 # Linux Red Hat Projects Portfolio Repository
 <h2> 1. <a href="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Project_1_Linux_Directory_Tree_Visualizer.sh">Project 1 Linux Directory Tree Visualizer Script</a></h2>
 <br>
-<a href="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Linux%20Screenshots/Screenshot_1_Linux_Lockdown_Grub_Menu.png">
-  <image src="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Linux%20Screenshots/Screenshot_1_Linux_Lockdown_Grub_Menu.png" alt = "Screenshot">
+<a href="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Linux%20Screenshots/Screenshot_4_Linux_Tree_Directory.png">
+  <image src="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Linux%20Screenshots/Screenshot_4_Linux_Tree_Directory.png" alt = "Screenshot">
     </a>
 <p><b>Description:</b> This bash Linux script automatically lists the directory tree for the current directory and can use ~ to tree the home directory of the current user. 
 </p>
