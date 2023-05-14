@@ -19,6 +19,9 @@ read CTRLID
 echo "Please enter 1 to ignore all ICMP requests or leave it as 0 as default."
 read ECHOID
 
+echo "Please enter 1 to accept redirects via ICMP or 0 to prevent ICMP redirects."
+read ECHORID
+
 #Configure the parameter permanently.
 echo "# sysctl settings are defined through files in" > /etc/sysctl.conf
 echo "# /usr/lib/sysctl.d/, /run/sysctl.d/, and /etc/sysctl.d/." >> /etc/sysctl.conf
@@ -36,6 +39,8 @@ sysctl -w net.ipv4.tcp_syncookies=$((COID)) >> /etc/sysctl.conf
 sysctl -w net.ipv4.ip_forward=$((FORID)) >> /etc/sysctl.conf
 sysctl -w kernel.ctrl-alt-del=$((CTRLID)) >> /etc/sysctl.conf
 sysctl -w net.ipv4.icmp_echo_ignore_all=$((ECHOID)) >> /etc/sysctl.conf
+sysctl -w net.ipv4.conf.all.accept_redirects=$((ECHORID)) >> /etc/sysctl.conf
+
 
 #Make the changes live.
 sysctl -p
