@@ -30,4 +30,7 @@
   
 <h2> 5. <a href="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Project_5_Linux_ELIF_Statement_Float_Calculate_WeightLBtoKg.sh">Project 5 Linux Weight LB to KG using ELIF Statements and Arithmetics with Floating Data Type Script</a></h2>
 <br>
-  
+<a href="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Linux%20Screenshots/Screenshot_5_Linux_ELIF_Statements_WeightLBtoKg.png">
+  <image src="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Linux%20Screenshots/Screenshot_5_Linux_ELIF_Statements_WeightLBtoKg.png" alt = "Screenshot">
+    </a>
+  <p><b>Description:</b> In this Linux bash script, it asks the user to input the weight in pounds <b>lb</b> and output a test el-if statement echo to the console screen along with the converted floating value as kilograms <b>kg</b>.</p>
