@@ -7,3 +7,5 @@
     - name: ping
       shell: ping -c3 google.com
       ignore_errors: false
+      register: ping
+    - debug: var=ping.stdout_lines
