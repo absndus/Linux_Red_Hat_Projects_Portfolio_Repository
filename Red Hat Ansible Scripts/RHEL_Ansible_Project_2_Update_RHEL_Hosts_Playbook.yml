@@ -5,5 +5,5 @@
       debug:
         msg: "Updating the Red Hat Server to the latest patches and security updates!"
     - name: ping
-      shell: yum update -y
+      shell: sudo su yum update -y
       ignore_errors: false
