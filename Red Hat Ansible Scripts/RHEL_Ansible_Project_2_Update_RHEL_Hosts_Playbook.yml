@@ -7,4 +7,4 @@
     - name: Update the Server
       shell: sudo yum update -y
       ignore_errors: true
-        msg: "The Server has been updated!"
+    - debug: var=out.stdout_lines
