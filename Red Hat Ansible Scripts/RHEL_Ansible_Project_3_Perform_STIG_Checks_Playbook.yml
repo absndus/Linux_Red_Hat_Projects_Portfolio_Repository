@@ -28,105 +28,105 @@
     
     - name: Perform STIG CAT I Check If Encrypted Grub Password is Set
       shell: sudo grep -iw grub2_password /boot/grub2/user.cfg 
-      ignore_errors: false
+      ignore_errors: true
       register: grub2chs
       
     - debug: var=grub2chs.stdout_lines
     
     - name: Perform STIG CAT I Check If GPGcheck Were Set to 1 For All Repository
       shell: sudo grep -E '^\[.*\]|gpgcheck' /etc/yum.repos.d/*.repo  
-      ignore_errors: false
+      ignore_errors: true
       register: yumrepogpgch
       
     - debug: var=yumrepogpgch.stdout_lines
     
     - name: Perform STIG CAT I Check if Local Yum Package has GPGcheck to 1
       shell: sudo grep -i localpkg_gpgcheck /etc/dnf/dnf.conf
-      ignore_errors: false
+      ignore_errors: true
       register: yumrepolgpgch
       
     - debug: var=yumrepolgpgch.stdout_lines
     
     - name: Perform STIG CAT I Check That There Are No Shosts Equiv Files
       shell: sudo find / -name shosts.equiv
-      ignore_errors: false
+      ignore_errors: true
       register: shostscheck
       
     - debug: var=shostscheck.stdout_lines
     
     - name: Perform STIG CAT I Check That There Are No Shosts Files At all
       shell: sudo find / -name '*.shosts'
-      ignore_errors: false
+      ignore_errors: true
       register: shostcheck
       
     - debug: var=shostcheck.stdout_lines
     
     - name: Perform STIG CAT I Check If Automatic Login Enabled
       shell: sudo grep -i automaticloginenable /etc/gdm/custom.conf
-      ignore_errors: false
+      ignore_errors: true
       register: autologinen
       
     - debug: var=autologinen.stdout_lines
     
     - name: Perform STIG CAT I Check that Null Passwords Cannot Be Used
       shell: sudo grep -ir permitemptypasswords /etc/ssh/sshd_config*
-      ignore_errors: false
+      ignore_errors: true
       register: nupass
       
     - debug: var=nupass.stdout_lines
     
     - name: Perform STIG CAT I Check If Telnet Programs Are Installed
       shell: sudo yum list installed telnet-server
-      ignore_errors: false
+      ignore_errors: true
       register: telnetpinst
       
     - debug: var=telnetpinst.stdout_lines
     
     - name: Perform STIG CAT I Check If RSH Server Is Installed
       shell: sudo yum list installed rsh-server
-      ignore_errors: false
+      ignore_errors: true
       register: rshserverinst
       
     - debug: var=rshserverinst.stdout_lines
     
     - name: Perform STIG CAT I Check if CTRL ALT DEL Allowed
       shell: sudo systemctl status ctrl-alt-del.target
-      ignore_errors: false
+      ignore_errors: true
       register: ctrlaltdelen
       
     - debug: var=ctrlaltdelen.stdout_lines
     
     - name: Perform STIG CAT I Check For Those with GUI Installed for CTRL ALT DEL Enabled
       shell: sudo grep logout /etc/dconf/db/local.d/*
-      ignore_errors: false
+      ignore_errors: true
       register: ctrlguien
       
     - debug: var=ctrlguien.stdout_lines
     
     - name: Perform STIG CAT I Check for Burst CTRL ALT DEL Action
       shell: sudo grep -i ctrl /etc/systemd/system.conf
-      ignore_errors: false
+      ignore_errors: true
       register: burstctrlen
       
     - debug: var=burstctrlen.stdout_lines
     
     - name: Perform STIG CAT I Check if TFTP Server Installed
       shell: sudo yum list installed tftp-server
-      ignore_errors: false
+      ignore_errors: true
       register: tftpserverinst
       
     - debug: var=tftpserverinst.stdout_lines
     
     - name: Perform STIG CAT I Check if FTP Server Not Been Installed
       shell: sudo yum list installed *ftpd*
-      ignore_errors: false
+      ignore_errors: true
       register: ftpserverinst
       
     - debug: var=ftpserverinst.stdout_lines
     
     - name: Perform STIG CAT I Check if NULL Passwords Are Allowed
       shell: sudo grep -i nullok /etc/pam.d/system-auth
-      ignore_errors: false
+      ignore_errors: true
       register: nullpassall
       
     - debug: var=nullpassall.stdout_lines
