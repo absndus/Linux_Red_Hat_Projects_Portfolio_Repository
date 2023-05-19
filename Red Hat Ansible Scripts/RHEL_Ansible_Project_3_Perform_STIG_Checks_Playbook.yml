@@ -15,6 +15,6 @@
     - name: Perform STIG CAT I OS Version Support
       shell: sudo cat /etc/redhat-release
       ignore_errors: false
-      register: rhel-release
+      register: rhelrelease
       
-    - debug: var=rhel-release.stdout_lines
+    - debug: var=rhelrelease.stdout_lines
