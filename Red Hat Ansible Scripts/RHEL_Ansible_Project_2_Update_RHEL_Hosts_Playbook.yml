@@ -9,5 +9,3 @@
       ignore_errors: true
       register: update
     - debug: var=update.stdout_lines
-    - name: Update Completed Message
-      msg: "Update Completed!"
