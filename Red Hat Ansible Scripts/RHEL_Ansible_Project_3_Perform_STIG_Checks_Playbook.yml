@@ -130,10 +130,3 @@
       register: nullpassall
       
     - debug: var=nullpassall.stdout_lines
-    
-    - name: Perform STIG CAT I Check For Blank Password in Pass File
-      shell: sudo awk -F: '!$2 {print $1}' /etc/shadow
-      ignore_errors: false
-      register: blankpassen
-      
-    - debug: var=blankpassen.stdout_lines
