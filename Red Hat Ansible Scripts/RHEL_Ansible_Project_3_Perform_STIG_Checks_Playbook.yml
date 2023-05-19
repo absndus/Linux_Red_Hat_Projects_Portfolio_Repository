@@ -117,13 +117,6 @@
       
     - debug: var=tftpserverinst.stdout_lines
     
-    - name: Perform STIG CAT I Check if UID 0 ROOT Assigned To Other Accounts
-      shell: sudo awk -F: '$3 == 0 {print $1}' /etc/passwd
-      ignore_errors: true
-      register: uidassignedpassw
-      
-    - debug: var=uidassignedpassw.stdout_lines
-    
     - name: Perform STIG CAT I Check if FTP Server Not Been Installed
       shell: sudo yum list installed *ftpd*
       ignore_errors: false
