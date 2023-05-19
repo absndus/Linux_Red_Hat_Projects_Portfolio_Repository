@@ -2,7 +2,14 @@
 <h2>Section 1 - Red Hat Linux Anisble Automation Scripts </h2>
 <p><h3>Summary:</h3> This section contains RHEL Ansible Server scripts that were used to run against the inventory groups of RHEL VMs in AWS.</p>
 <br>
-
+<h2> 1. <a href="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Red%20Hat%20Ansible%20Scripts/RHEL_Ansible_Project_1_Simple_Hello_World_Playbook.yml">RHEL Ansible Project 1 Hello World Script</a></h2>
+<br>
+<a href="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Linux%20Screenshots/Screenshot_6_RHEL_Ansible_1_Hello_World_Play.png">
+  <image src="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Linux%20Screenshots/Screenshot_6_RHEL_Ansible_1_Hello_World_Play.png" alt = "Screenshot">
+    </a>
+<p><b>Description:</b> This is my first RHEL Ansible Automation Hello World yaml script that reaches out to all of the hosts in the ABS Inventory Group listed in the Ansible Tower application and prints out the <br>Hello World</br> Message after the job process has completed. 
+</p>
+  
 <h2>Section 2 - Red Hat Linux Script Projects </h2>
 <p><h3>Summary:</h3> This section contains scripts that I have created to show-case my Linux scripting skills.</p>
 <br>
