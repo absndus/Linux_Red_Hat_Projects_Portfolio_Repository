@@ -10,6 +10,14 @@
 <p><b>Description:</b> This is my first RHEL Ansible Automation Hello World yaml script that reaches out to all of the hosts in the ABS Inventory Group listed in the Ansible Tower application and prints out the <b>Hello World</b> Message after the job process has completed. 
 </p>
   
+<h2> 2. <a href="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Red%20Hat%20Ansible%20Scripts/RHEL_Ansible_Project_2_Update_RHEL_Hosts_Playbook.yml">RHEL Ansible Project 2 Update Server Script</a></h2>
+<br>
+<a href="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Linux%20Screenshots/Screenshot_7_RHEL_Ansible_2_Update_Patches_Play.png">
+  <image src="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Linux%20Screenshots/Screenshot_7_RHEL_Ansible_2_Update_Patches_Play.png" alt = "Screenshot">
+    </a>
+<p><b>Description:</b> This is my second RHEL Ansible Automation that reaches out to all of the hosts in the ABS Inventory Group listed in the Ansible Tower application to print out the update server message and updates the servers with the latest RHEL updates and patches. The multi-line std.out message shows the activities of the yum updates. Once updating completes, the mssage says the update has been completed. 
+</p>
+  
 <h2>Section 2 - Red Hat Linux Script Projects </h2>
 <p><h3>Summary:</h3> This section contains scripts that I have created to show-case my Linux scripting skills.</p>
 <br>
