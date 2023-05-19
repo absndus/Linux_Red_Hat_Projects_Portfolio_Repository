@@ -7,7 +7,7 @@
 <a href="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Linux%20Screenshots/Screenshot_6_RHEL_Ansible_1_Hello_World_Play.png">
   <image src="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Linux%20Screenshots/Screenshot_6_RHEL_Ansible_1_Hello_World_Play.png" alt = "Screenshot">
     </a>
-<p><b>Description:</b> This is my first RHEL Ansible Automation Hello World yaml script that reaches out to all of the hosts in the ABS Inventory Group listed in the Ansible Tower application and prints out the <br>Hello World</br> Message after the job process has completed. 
+<p><b>Description:</b> This is my first RHEL Ansible Automation Hello World yaml script that reaches out to all of the hosts in the ABS Inventory Group listed in the Ansible Tower application and prints out the <b>Hello World</b> Message after the job process has completed. 
 </p>
   
 <h2>Section 2 - Red Hat Linux Script Projects </h2>
