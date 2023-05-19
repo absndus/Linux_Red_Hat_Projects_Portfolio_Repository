@@ -6,6 +6,7 @@
         msg: "Performing STIG Checks on this system, please wait and review the below messages."
     
     - name: Perform STIG CAT I FIPS Mode If Enabled
+      msg: "Reviewing FIPS mode to see if it is enabled."
       shell: sudo fips-mode-setup --check
       ignore_errors: false
       register: fips
@@ -13,6 +14,7 @@
     - debug: var=fips.stdout_lines
     
     - name: Perform STIG CAT I OS Version Support
+      msg: "Reviewing the RHEL OS version."
       shell: sudo cat /etc/redhat-release
       ignore_errors: false
       register: rhelrelease
