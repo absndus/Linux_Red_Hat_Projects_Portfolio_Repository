@@ -118,7 +118,7 @@
     - debug: var=tftpserverinst.stdout_lines
     
     - name: Perform STIG CAT I Check if UID 0 ROOT Assigned To Other Accounts
-      shell: sudo awk -F: '$3 == 0 {print $1}' /etc/passwd
+      shell: "sudo awk -F: '$3 == 0 {print $1}' /etc/passwd"
       ignore_errors: false
       register: uidassignedpassw
       
