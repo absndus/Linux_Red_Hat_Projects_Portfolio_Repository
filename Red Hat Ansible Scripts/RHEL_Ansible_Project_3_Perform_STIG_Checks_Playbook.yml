@@ -21,7 +21,7 @@
     
     - name: Perform STIG CAT I Check UEFI GRUB2 Auth If Enabled with Hash Encryption
       shell: sudo grep -iw grub2_password /boot/efi/EFI/redhat/user.cfg
-      ignore_errors: false
+      ignore_errors: true
       register: grub2ch
       
     - debug: var=grub2ch.stdout_lines
