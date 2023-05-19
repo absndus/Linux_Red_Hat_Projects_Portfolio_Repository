@@ -1,0 +1,13 @@
+- name: RHEL Perform STIG Check Script
+  hosts: all
+  tasks:
+    - name: STIG Message
+      debug:
+        msg: "Performing STIG Checks on this system, please wait and review the below messages."
+    
+    - name: Perform STIG CAT I FIPS Mode If Enabled
+      shell: sudo fips-mode-setup --check
+      ignore_errors: false
+      register: fips
+    
+    - debug: var=fips.stdout_lines
