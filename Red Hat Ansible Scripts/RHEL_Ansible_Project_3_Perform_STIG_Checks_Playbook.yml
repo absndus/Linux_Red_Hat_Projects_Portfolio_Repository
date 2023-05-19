@@ -13,7 +13,6 @@
     - debug: var=fips.stdout_lines
     
     - name: Perform STIG CAT I OS Version Support
-      msg: "Reviewing the RHEL OS version."
       shell: sudo cat /etc/redhat-release
       ignore_errors: false
       register: rhelrelease
