@@ -4,9 +4,6 @@
     - name: Update Message
       debug:
         msg: "Updating the Red Hat Server to the latest patches and security updates!"
-    - name: Ec2 to Root Mode
-      shell: sudo su
-      ignore_errors: true
     - name: Update the Server
-      shell: yum update -y
+      shell: sudo yum update -y
       ignore_errors: true
