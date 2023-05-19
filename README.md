@@ -18,6 +18,14 @@
 <p><b>Description:</b> This is my second RHEL Ansible Automation that reaches out to all of the hosts in the ABS Inventory Group listed in the Ansible Tower application to print out the update server message and updates the servers with the latest RHEL updates and patches. The multi-line std.out message shows the activities of the yum updates. Once updating completes, the mssage says the update has been completed. 
 </p>
   
+<h2> 3. <a href="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Red%20Hat%20Ansible%20Scripts/RHEL_Ansible_Project_3_Perform_STIG_Checks_Playbook.yml">RHEL Ansible Project 3 Perform STIG Checks Against the RHEL Hosts Script</a></h2>
+<br>
+<a href="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Linux%20Screenshots/Screenshot_8_RHEL_Ansible_3_Perform_STIG_Security_Check_on_Hosts_Play.png">
+  <image src="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Linux%20Screenshots/Screenshot_8_RHEL_Ansible_3_Perform_STIG_Security_Check_on_Hosts_Play.png" alt = "Screenshot">
+    </a>
+<p><b>Description:</b> This Ansible Automation yaml script performs DoD Cyber Security Technical Implementation Guide checks against the Red Host machines that are in line of sight of the Ansible Tower to quickly determine what security measures needs to be in place in the future. This is an ongoing Ansible script project. More lines of checks will be written into this yaml script along the way. 
+</p>
+  
 <h2>Section 2 - Red Hat Linux Script Projects </h2>
 <p><h3>Summary:</h3> This section contains scripts that I have created to show-case my Linux scripting skills.</p>
 <br>
