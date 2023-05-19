@@ -1,9 +1,6 @@
----
-- name: Hello World First Ansible RHEL Playbook
-  hosts: localhost
-  tasks: 
-  - name: Ping Hosts in AWS
-    ansible.builtin.ping:
-  - name: Print Message to Console
-    ansible.builtin.debut: 
-        msg: Hello World
+- name: Hello World Sample
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
