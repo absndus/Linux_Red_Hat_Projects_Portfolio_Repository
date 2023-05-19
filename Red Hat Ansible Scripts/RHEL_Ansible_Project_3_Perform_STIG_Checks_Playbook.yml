@@ -11,3 +11,10 @@
       register: fips
     
     - debug: var=fips.stdout_lines
+    
+    - name: Perform STIG CAT I OS Version Support
+      shell: sudo cat /etc/redhat-release
+      ignore_errors: false
+      register: rhel-release
+      
+    - debug: var=rhel-release.stdout_lines
