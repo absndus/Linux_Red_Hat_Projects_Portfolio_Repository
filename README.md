@@ -1,4 +1,11 @@
 # Linux Red Hat Projects Portfolio Repository
+<h2>Section 1 - Red Hat Linux Anisble Automation Scripts </h2>
+<p><h3>Summary:</h3> This section contains RHEL Ansible Server scripts that were used to run against the inventory groups of RHEL VMs in AWS.</p>
+<br>
+
+<h2>Section 2 - Red Hat Linux Script Projects </h2>
+<p><h3>Summary:</h3> This section contains scripts that I have created to show-case my Linux scripting skills.</p>
+<br>
 <h2> 1. <a href="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Project_1_Linux_Directory_Tree_Visualizer.sh">Project 1 Linux Directory Tree Visualizer Script</a></h2>
 <br>
 <a href="https://github.com/absndus/Linux_Red_Hat_Projects_Portfolio_Repository/blob/main/Linux%20Screenshots/Screenshot_4_Linux_Tree_Directory.png">
