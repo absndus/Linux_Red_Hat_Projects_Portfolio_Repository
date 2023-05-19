@@ -5,5 +5,5 @@
       debug:
         msg: "Hello World!"
     - name: ping
-      shell: ping -c 1 -w 2 www.youtube.com
+      shell: ping -c3 google.com
       ignore_errors: false
