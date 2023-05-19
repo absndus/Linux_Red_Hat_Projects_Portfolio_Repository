@@ -1,0 +1,9 @@
+- name: RHEL Update Security Script
+  hosts: all
+  tasks:
+    - name: Update Message
+      debug:
+        msg: "Updating the Red Hat Server to the latest patches and security updates!"
+    - name: ping
+      shell: yum update -y
+      ignore_errors: false
