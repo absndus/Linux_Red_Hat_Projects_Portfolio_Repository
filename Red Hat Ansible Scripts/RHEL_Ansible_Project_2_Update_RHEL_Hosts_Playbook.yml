@@ -4,8 +4,10 @@
     - name: Update Message
       debug:
         msg: "Updating the Red Hat Server to the latest patches and security updates!"
+    
     - name: Update the Server
       shell: sudo yum update -y
       ignore_errors: true
       register: update
+    
     - debug: var=update.stdout_lines
