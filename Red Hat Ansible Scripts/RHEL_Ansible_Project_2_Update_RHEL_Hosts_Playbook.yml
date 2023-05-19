@@ -8,4 +8,6 @@
       shell: sudo yum update -y
       ignore_errors: true
       register: update
-      msg: "Update Completed!"
+    - debug: var=update.stdout_lines
+    - name: Update Completed Message!
+        msg: "Update Completed!"
