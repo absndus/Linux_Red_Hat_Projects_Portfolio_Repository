@@ -6,7 +6,6 @@
         msg: "Performing STIG Checks on this system, please wait and review the below messages."
     
     - name: Perform STIG CAT I FIPS Mode If Enabled
-      msg: "Reviewing FIPS mode to see if it is enabled."
       shell: sudo fips-mode-setup --check
       ignore_errors: false
       register: fips
