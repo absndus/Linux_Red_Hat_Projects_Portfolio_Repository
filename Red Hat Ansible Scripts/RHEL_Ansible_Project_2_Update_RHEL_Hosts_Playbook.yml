@@ -7,3 +7,4 @@
     - name: Update the Server
       shell: sudo yum update -y
       ignore_errors: true
+       mesg: "The Server has been updated!"
