@@ -131,8 +131,8 @@
       
     - debug: var=nullpassall.stdout_lines
 
-    - name: Perform a ping test using the Shell to Google
-      shell: ping -c 5 www.google.com
+    - name: Perform a ping test using the Shell to YouTube
+      shell: ping -c 5 www.youtube.com
       ignore_errors: true
       register: pgoogle
 
