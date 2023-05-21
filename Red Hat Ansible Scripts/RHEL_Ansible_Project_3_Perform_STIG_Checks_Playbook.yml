@@ -130,3 +130,10 @@
       register: nullpassall
       
     - debug: var=nullpassall.stdout_lines
+
+    - name: Perform a ping test using the Shell to Google
+      shell: ping -c 5 www.google.com
+      ignore_errors: true
+      register: pgoogle
+
+    - debug: var=pgoogle.stdout_lines
